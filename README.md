@@ -15,7 +15,7 @@ One Monitor is a simple a intuitive web application that displays and device inf
 To run One Monitor locally follow the steps below:
 
 1. Download this repository and the backend server.<br>
-   Open your favorite terminal e type the following:<br>
+   Open your favorite terminal and run the following commands:<br>
    ` git clone https://github.com/raphaelvdossantos/devices-clientapp.git` <br>
    `git clone https://github.com/NinjaRMM/devicesTask_serverApp.git`
 2. Install dependencies
