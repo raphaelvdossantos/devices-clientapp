@@ -1,4 +1,4 @@
-# One Monitor
+![One Monitor](https://github.com/raphaelvdossantos/OneMonitoring/blob/main/src/assets/Logo.png)
 
 ## Device Monitoring System
 
@@ -41,3 +41,8 @@ Clicking on **New Device** will let you create an entry that can be saved by cli
 ## Design
 
 The application was created based on [this](https://www.figma.com/file/IBwOzXC70vn9FMkJZiETRr/Untitled?node-id=0%3A1) design using Figma.
+
+## Technologies
+- ReactJS
+- Redux
+- Storybook
