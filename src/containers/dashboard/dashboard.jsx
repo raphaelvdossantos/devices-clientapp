@@ -14,6 +14,7 @@ import MainPanel from "../../components/mainPanel/mainPanel";
 import { filterDevices, sortDevicesBy } from "./../../utils/functions";
 
 import * as S from "./styles";
+import { TAB_TYPE } from "../../utils/constants";
 
 export default function Dashboard() {
   const dispatch = useDispatch();
@@ -40,6 +41,7 @@ export default function Dashboard() {
 
   const onSubmitHandler = (deviceData) => {
     dispatch(postDevice(deviceData));
+    dispatch(setActiveTab(TAB_TYPE.DASHBOARD));
   };
 
   const onChangeSortHandler = (newSort) => {
