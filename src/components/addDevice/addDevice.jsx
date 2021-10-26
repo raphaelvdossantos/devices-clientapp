@@ -14,7 +14,7 @@ export default function AddDevice({ onSubmitAction }) {
   const execSubmit = (event) => {
     event.preventDefault();
     if (!name.current.value || !type.current.value || !HDD.current.value) {
-      alert("Please Fill the mandatory fields (*)");
+      return alert("Please Fill the mandatory fields (*)");
     }
     onSubmitAction({
       name: name.current.value,
